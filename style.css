@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    top: 0;
+    position: relative;
+
+}
+
+
+.left {
+    height: 55%;
+    width: 25%;
+    background-color: red;
+    border: 2px solid black;
+    top: 0;
+    left: 0%;
+    position: absolute;
+}
+
+.child {
+    width: 15%;
+    height: 45%;
+    background-color: blueviolet;
+    border: 2px solid black;
+    bottom: 0;
+    left: 35%   ;
+    position: absolute;
+
+}
+
+.right  {
+    height: 55%;
+    width: 25%;
+    background-color: green;
+    border: 2px solid black;
+    top: 0;
+    right: 0%;
+    position: absolute;
+}
+.child1 {
+    width: 15%;
+    height: 45%;
+    background-color: yellow;
+    border: 2px solid black;
+    left: 0;
+    top: 35%;
+
+    position: absolute;
+}
+
+.bottom {
+    height: 352px;
+    width: 100%;
+    background-color: grey;
+    bottom: 0;
+position: relative;
+}
+
+
+.left2 {
+    height: 55%;
+    width: 25%;
+    background-color: blue;
+    border: 2px solid black;
+    bottom: 0;
+    left: 0%;
+    position: absolute;
+}
+
+.child3 {
+    width: 15%;
+    height: 45%;
+    background-color: grey;
+    border: 2px solid black;
+    top: 0;
+    left: 35%;
+    position: absolute;
+
+}
+
+.right2  {
+    height: 55%;
+    width: 25%;
+    background-color: blueviolet;
+    border: 2px solid black;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.child4 {
+    width: 15%;
+    height: 45%;
+    background-color: red;
+    border: 2px solid black;
+    right: 45%;
+    top: 0 ;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
